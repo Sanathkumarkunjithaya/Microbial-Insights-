@@ -11,9 +11,6 @@ A comprehensive machine learning project designed to predict crop yield for Arec
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 ## Overview
@@ -71,4 +68,23 @@ This project leverages an ensemble model of **Random Forest** and **XGBoost** to
 ### Clone the Repository
 ```bash
 git clone https://github.com/Sanathkumarkunjithaya/Microbial-Insights-.git
-  
+  ```
+## Usage
+
+### Run the Application
+- **Navigate to the app/ directory:** cd app
+- **Run the application** streamlit run app.py (or streamlit run app1.py)
+
+### Explore the Notebooks
+- **Open Jupyter Notebook:** jupyter notebook
+- **Navigate to the notebooks/ directory and explore** rf_model.ipynb for Random Forest, xgb_model.ipynb for XGBoost, stens.ipynb for the ensemble model
+
+## Results
+
+The model achieved the following performance metrics:
+
+- **Mean Squared Error (MSE):** 0.10
+- **Mean Absolute Error (MAE):** 0.26
+- **R² Score:** 0.95
+These metrics demonstrate the accuracy and reliability of the ensemble model.
+
