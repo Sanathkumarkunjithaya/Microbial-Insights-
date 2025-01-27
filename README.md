@@ -76,11 +76,11 @@ git clone https://github.com/Sanathkumarkunjithaya/Microbial-Insights-.git
 - **Run the application** streamlit run app.py (or streamlit run app1.py)
 
 ### Explore the Notebooks
-- **Open Jupyter Notebook:** jupyter notebook
+- **Open Jupyter Notebook:** `jupyter notebook`
 - **Navigate to the notebooks/ directory and explore:**
- - rf_model.ipynb for Random Forest
- - xgb_model.ipynb for XGBoost
- - stens.ipynb for the ensemble model
+  - **rf_model.ipynb** for Random Forest
+  - **xgb_model.ipynb** for XGBoost
+  - **stens.ipynb** for the ensemble model
 
 ## Results
 
