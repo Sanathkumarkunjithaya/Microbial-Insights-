@@ -5,6 +5,7 @@ A comprehensive machine learning project designed to predict crop yield for Arec
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
+- [File Structure](#file-structure)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Installation](#installation)
@@ -14,6 +15,7 @@ A comprehensive machine learning project designed to predict crop yield for Arec
 - [Contributing](#contributing)
 - [License](#license)
 
+
 ## Overview
 **Microbial Insights** aims to assist farmers and researchers by providing an automated system to analyze soil health indicators and predict yield accurately for Arecanut. The system is built upon various machine learning models and utilizes ensemble learning for better accuracy. Soil microbial health plays a significant role in determining the nutrient availability and overall health of the Arecanut crop, making it a vital component of this analysis.
 
@@ -22,6 +24,24 @@ A comprehensive machine learning project designed to predict crop yield for Arec
 - **Soil Health Insights**: Offers insights into the soil’s microbial ecosystem and its impact on Arecanut yield.
 - **Ensemble Model**: Combines the strengths of Random Forest and XGBoost for better prediction accuracy.
 - **User-Friendly Interface**: Includes a [Streamlit](https://streamlit.io/) app for easy input and result visualization.
+
+## File Structure
+```plaintext
+Microbial-Insights/
+├── README.md         # Project documentation
+├── app/              # Application files and assets
+│   ├── app.py        # Main application script
+│   ├── app1.py       # Secondary(Good vizzualization and graphics) application script
+│   ├── arecimg.jpg   # Visualization image used in the app
+├── notebooks/        # Jupyter notebooks for model development and analysis
+│   ├── rf_model.ipynb    # Random Forest model development
+│   ├── stens.ipynb       # Ensemble model (Random Forest + XGBoost)
+│   ├── xgb_model.ipynb   # XGBoost model development
+├── scripts/          # Python scripts for reusable code
+│   └── stens.py       # Script for ensemble model implementation
+├── models/           # Placeholder for saved model files
+└── __pycache__/      # Python cache files (not required for version control)
+
 
 ## Dataset
 The dataset used in this project includes features such as:
@@ -51,4 +71,4 @@ This project leverages an ensemble model of **Random Forest** and **XGBoost** to
 ### Clone the Repository
 ```bash
 git clone https://github.com/Sanathkumarkunjithaya/Microbial-Insights-.git
-
+  
