@@ -31,7 +31,7 @@ Microbial-Insights/
 ├── README.md         # Project documentation
 ├── app/              # Application files and assets
 │   ├── app.py        # Main application script
-│   ├── app1.py       # Secondary(Good vizzualization and graphics) application script
+│   ├── app1.py       # Secondary(Good visualization and graphics) application script
 │   ├── arecimg.jpg   # Visualization image used in the app
 ├── notebooks/        # Jupyter notebooks for model development and analysis
 │   ├── rf_model.ipynb    # Random Forest model development
@@ -41,7 +41,7 @@ Microbial-Insights/
 │   └── stens.py       # Script for ensemble model implementation
 ├── models/           # Placeholder for saved model files
 └── __pycache__/      # Python cache files (not required for version control)
-plaintext```
+```
 
 ## Dataset
 The dataset used in this project includes features such as:
