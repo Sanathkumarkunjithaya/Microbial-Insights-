@@ -43,7 +43,7 @@ Microbial-Insights/
 ## Dataset
 The dataset used in this project includes features such as:
 - Soil pH, Nitrogen, Phosphorus, Potassium levels
-- Organic Matter, Temperature, Rainfall, Elevation
+- Organic Matter, Temperature
 - Beneficial and Harmful Microbes (CFU/g)
 - Microbial Biomass, Soil Enzyme Activity
 - Disease and Nutrient Deficiency indicators specific to Arecanut
