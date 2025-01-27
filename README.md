@@ -77,7 +77,10 @@ git clone https://github.com/Sanathkumarkunjithaya/Microbial-Insights-.git
 
 ### Explore the Notebooks
 - **Open Jupyter Notebook:** jupyter notebook
-- **Navigate to the notebooks/ directory and explore** rf_model.ipynb for Random Forest, xgb_model.ipynb for XGBoost, stens.ipynb for the ensemble model
+- **Navigate to the notebooks/ directory and explore:**
+ - rf_model.ipynb for Random Forest
+ - xgb_model.ipynb for XGBoost
+ - stens.ipynb for the ensemble model
 
 ## Results
 
