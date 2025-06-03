@@ -36,8 +36,6 @@ Microbial-Insights/
 │   ├── xgb_model.ipynb   # XGBoost model development
 ├── scripts/          # Python scripts for reusable code
 │   └── stens.py       # Script for ensemble model implementation
-├── models/           # Placeholder for saved model files
-└── __pycache__/      # Python cache files (not required for version control)
 ```
 
 ## Dataset
