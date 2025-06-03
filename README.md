@@ -11,16 +11,26 @@ A comprehensive machine learning project designed to predict crop yield for Arec
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
+- [New Updates ](#new-updates)
+- [Repositories](#repositories)
+- [Live Demo](#live-demo)
 
 
 ## Overview
 **Microbial Insights** aims to assist farmers and researchers by providing an automated system to analyze soil health indicators and predict yield accurately for Arecanut. The system is built upon various machine learning models and utilizes ensemble learning for better accuracy. Soil microbial health plays a significant role in determining the nutrient availability and overall health of the Arecanut crop, making it a vital component of this analysis.
 
+Originally developed as a Streamlit-based application with machine learning models, the project has evolved into a full-stack web application with enhanced features and scalability.
+
 ## Features
+
 - **Predictive Analysis**: Predicts Arecanut yield based on soil health, microbial activity, and nutrient composition.
 - **Soil Health Insights**: Offers insights into the soil’s microbial ecosystem and its impact on Arecanut yield.
 - **Ensemble Model**: Combines the strengths of Random Forest and XGBoost for better prediction accuracy.
-- **User-Friendly Interface**: Includes a [Streamlit](https://streamlit.io/) app for easy input and result visualization.
+- **User-Friendly Interface**:
+  - Original: A Streamlit app for easy input and result visualization.
+  - Updated: A modern React-based web frontend for enhanced accessibility and user experience.
+- **LLM Integration (New)**: Integrates with Grok (by xAI) via the Groq API to provide actionable agronomic insights based on predictions.
+- **Scalable Architecture (New)**: Separates frontend, backend, and model for better maintainability and scalability.
 
 ## File Structure
 ```plaintext
@@ -90,3 +100,30 @@ The model achieved the following performance metrics:
   
 These metrics demonstrate the accuracy and reliability of the ensemble model.
 
+
+## New Updates 
+The Microbial Insights project has been significantly enhanced with a modern full-stack architecture, improving accessibility and usability for farmers and researchers. Key updates include:
+
+- **Full-Stack Implementation**:
+  - **Frontend**: A new React-based web interface (`microbialinsight-frontend`) replaces the original Streamlit app, offering a more responsive and scalable user experience.
+  - **Backend**: A FastAPI-based backend (`microbialinsight-backend`) handles prediction requests and integrates with the machine learning model.
+  - **Deployment**: Both frontend and backend are deployed on Render for seamless access.
+- **LLM Integration**:
+  - Added integration with Llama 4 Scout via the Groq API to generate agronomic insights based on model predictions, providing actionable advice for farmers (e.g., soil pH adjustments, nutrient management).
+ 
+  ## Repositories
+
+The project is now split into three repositories for better organization:
+
+- **Original ML and Streamlit App**: [Microbial-Insights-](https://github.com/Sanathkumarkunjithaya/Microbial-Insights-) (this repository)
+- **Backend (FastAPI)**: [microbialinsight-backend]()
+- **Frontend (React)**: [microbialinsight-frontend](https://github.com/Sanathkumarkunjithaya/microbialinsight-frontend)
+
+For the latest implementation, please refer to the backend and frontend repositories.
+
+## Live Demo
+
+Access the deployed application:
+
+- **Frontend**: [https://microbialinsight-frontend.onrender.com](https://microbialinsight-frontend.onrender.com)
+- **Backend**: [https://microbialinsight-backend.onrender.com](https://microbialinsight-backend.onrender.com)
