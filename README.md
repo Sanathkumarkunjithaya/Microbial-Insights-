@@ -126,4 +126,3 @@ For the latest implementation, please refer to the backend and frontend reposito
 Access the deployed application:
 
 - **Frontend**: [https://microbialinsight-frontend.onrender.com](https://microbialinsight-frontend.onrender.com)
-- **Backend**: [https://microbialinsight-backend.onrender.com](https://microbialinsight-backend.onrender.com)
